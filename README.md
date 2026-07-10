@@ -17,15 +17,6 @@ The prototype:
 * uses a dictionary of gender-neutral alternatives as additional rewriting guidance, and
 * supports manually marking relevant terms with double brackets, for example `[[Zuschauer]]`.
 
-## Repository Contents
-
-| File                                      | Description                                                              |
-| ----------------------------------------- | ------------------------------------------------------------------------ |
-| `lamm_proto.ipynb`                        | Main Google Colab notebook for data preparation, training, and rewriting |
-| `lamm_proto.py`                           | Python export of the Colab notebook                                      |
-| `gender_dict_geschicktgendern.json`       | Dictionary containing possible gender-neutral alternatives               |
-| `data_gendergerechte_begriffe_final.xlsx` | Study data used for the human evaluation                                 |
-
 ## Example
 
 Input:
@@ -67,15 +58,7 @@ Some training files referenced by the notebook are not included in this reposito
 
 ## Data Sources
 
-The training pipeline uses reformulation data from the [Lou gender-fair reformulations repository](https://github.com/UKPLab/lou-gender-fair-reformulations).
+The training pipeline uses reformulation data from the [Lou gender-fair reformulations repository](https://github.com/UKPLab/lou-gender-fair-reformulations). The non-publicly available files were granted to me privately and can be shared on request.
 
 The lexical alternatives in `gender_dict_geschicktgendern.json` were collected from [Geschickt gendern – Das Genderwörterbuch](https://geschicktgendern.de/). Please consult the original sources for their respective usage conditions.
 
-## Project Status
-
-This repository contains a research prototype rather than a production-ready application. Model outputs may be grammatically incorrect, alter the intended meaning, or fail to produce a suitable gender-fair formulation. Generated rewrites should therefore be reviewed manually.
-
-## Author
-
-Alexandra Esmundo
-::: 
