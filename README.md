@@ -62,3 +62,4 @@ The training pipeline uses reformulation data from the [Lou gender-fair reformul
 
 The lexical alternatives in `gender_dict_geschicktgendern.json` were collected from [Geschickt gendern – Das Genderwörterbuch](https://geschicktgendern.de/). Please consult the original sources for their respective usage conditions.
 
+The expert-written reformulations included in this repository were created by Priv.-Doz. Dr. Jens Fleischhauer, whom I gratefully acknowledge for contributing the human expert baseline used in the evaluation.
